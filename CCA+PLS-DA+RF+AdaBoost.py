@@ -16,7 +16,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import StratifiedKFold
 import time
           
-spectra_dict='C:/Users/annasrokabartnicka.FA-1-NO-I001796/Documents/Rzeczy pracowe/Cukrzyca/Solaris/Baseline corrected maps/To_analysis/'
+spectra_dict='add_your_path'
 samples=os.listdir(spectra_dict)
 print('Samples are:')
 print(samples)
